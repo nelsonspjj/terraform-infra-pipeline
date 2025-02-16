@@ -16,5 +16,5 @@ jobs:
       environment: dev
       aws-assume-role-arn: "arn:aws:iam::597088031350:role/github-actions-nelsonspjj-pipeline"
       aws-region: "sa-east-1"
-      aws-statefile-s3-bucket: "nelsonspjj-sa-east-1-terraform-statefile"
+      aws-statefile-s3-bucket: "nelsonspjj2-sa-east-1-terraform-statefile"
       aws-lock-dynamodb-table: "nelsonspjj-sa-east-1-terraform-lock"
